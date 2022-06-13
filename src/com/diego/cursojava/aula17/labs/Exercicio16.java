@@ -11,7 +11,7 @@ public class Exercicio16 {
 		
 		System.out.print(c + ", ");
 		
-		for (int i = 0; c < 500; i++) {
+		for (; c < 500;) {
 			a = b;
 			b = c;
 			c = b + a;
